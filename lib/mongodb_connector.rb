@@ -1,6 +1,6 @@
 
 require 'mongo'
-require './abstract_db_connector'
+require './lib//abstract_db_connector'
 
 class MongoDBConnector < AbstractDBConnector
 

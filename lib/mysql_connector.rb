@@ -1,6 +1,6 @@
 
 require 'mysql2'
-require './abstract_db_connector'
+require './lib/abstract_db_connector'
 
 class MySqlConnector < AbstractDBConnector
 
