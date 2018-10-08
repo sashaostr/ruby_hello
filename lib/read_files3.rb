@@ -1,4 +1,4 @@
-require './lib/mongodb_connector'
+require_relative 'mongodb_connector'
 require 'json'
 
 

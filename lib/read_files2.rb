@@ -1,5 +1,5 @@
-require './lib/mysql_connector'
-require './lib/mongodb_connector'
+require_relative 'mysql_connector'
+require_relative 'mongodb_connector'
 require 'mysql2'
 require 'json'
 
