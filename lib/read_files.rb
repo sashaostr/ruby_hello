@@ -1,6 +1,6 @@
 require_relative 'mysql_connector'
 require_relative 'mongodb_connector'
-require_relative 'word_counter'
+require_relative 'words_counter_old'
 require 'mysql2'
 
 
@@ -18,7 +18,7 @@ else
   raise "Unknown db"
 end
 
-wc = WordsCounter.new(path)
+wc = WordsCounter1.new(path)
 counts_ordered = wc.count_words()
 puts counts_ordered
 db.connect

@@ -1,5 +1,5 @@
 require_relative 'mongodb_connector'
-require_relative 'word_counter'
+require_relative 'words_counter_old'
 require 'json'
 
 

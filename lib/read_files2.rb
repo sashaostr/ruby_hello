@@ -1,4 +1,4 @@
-require_relative 'word_counter'
+require_relative 'words_counter_old'
 require 'mysql2'
 require 'json'
 
